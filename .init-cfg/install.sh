@@ -21,4 +21,7 @@ echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $H
 
 config checkout $HOME
 
+# oh-my-zsh plugins
+plugins=(git vi-mode rust golang fzf)
+
 echo "source ~/.zshrc_custom" >>~/.zshrc
