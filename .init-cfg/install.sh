@@ -8,16 +8,15 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 # node version manager
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
-echo "source ~/.zshrc_custom" >>~/.zshrc
-
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 
 # init dir $HOME/.cfg
-mkdir $HOME/.cfg
+mkdir -p $HOME/.cfg
 
-git clone --bare  $HOME/.cfg
+git clone --bare https://github.com/StandCN/dotfiles.git  $HOME/.cfg
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config config --local status.showUntrackedFiles no
 echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
-echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.zshrc
+echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.zshrc_custom
 
+echo "source ~/.zshrc_custom" >>~/.zshrc
