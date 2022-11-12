@@ -12,6 +12,9 @@ echo "source ~/.zshrc_custom" >>~/.zshrc
 
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 
+# init dir $HOME/.cfg
+mkdir $HOME/.cfg
+
 git clone --bare  $HOME/.cfg
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config config --local status.showUntrackedFiles no
