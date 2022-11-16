@@ -1,3 +1,7 @@
+
+# oh-my-zsh plugins
+echo "plugins=(git vi-mode rust golang fzf docker vscode scala tmux redis-cli vim-interactive nod nvm npm pip python spring ssh-agent sudo ufw ubuntu)" >> $HOME/.zshrc
+
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -17,11 +21,8 @@ git clone --bare https://github.com/StandCN/dotfiles.git  $HOME/.cfg
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config config --local status.showUntrackedFiles no
 echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
-echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.zshrc_custom
+echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.zshrc
 
 config checkout $HOME
 
-# oh-my-zsh plugins
-echo "plugins=(git vi-mode rust golang fzf)" >> $HOME/.zshrc_custom
 
-echo "source ~/.zshrc_custom" >>~/.zshrc
