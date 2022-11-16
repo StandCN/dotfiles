@@ -1,6 +1,6 @@
 
 # oh-my-zsh plugins
-echo "plugins=(git vi-mode rust golang fzf docker vscode scala tmux redis-cli vim-interactive nod nvm npm pip python spring ssh-agent sudo ufw ubuntu)" >> $HOME/.zshrc
+echo "plugins=(git vi-mode rust golang fzf docker vscode scala tmux redis-cli vim-interaction node nvm npm pip python spring ssh-agent sudo ufw ubuntu)" >> $HOME/.zshrc
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
