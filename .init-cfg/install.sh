@@ -10,7 +10,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 echo "plugins=(git vi-mode rust golang fzf docker vscode scala tmux redis-cli vim-interaction node nvm npm pip python spring ssh-agent sudo ufw ubuntu)" >> $HOME/.zshrc
 
 # node version manager
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 
