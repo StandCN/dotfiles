@@ -7,7 +7,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 # oh-my-zsh plugins
-echo "plugins=(git vi-mode rust golang fzf docker vscode scala tmux redis-cli vim-interaction node nvm npm pip python spring ssh-agent sudo ufw ubuntu)" >> $HOME/.zshrc
+echo "plugins=(git vi-mode rust golang fzf docker vscode scala tmux redis-cli vim-interaction node nvm npm pip python spring ssh-agent sudo ufw ubuntui github virtualenv)" >> $HOME/.zshrc
 
 # node version manager
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
