@@ -1,6 +1,6 @@
 [class]
 text_default = [
-  { command = "gedit", fork = true, silent = true },
+#  { command = "gedit", fork = true, silent = true },
   { command = "vim" },
 ]
 
