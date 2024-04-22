@@ -12,7 +12,7 @@ sudo sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/sources.
 
 ## 软件
 ```
-sudo apt install zsh ripgrep fzf neofetch clang cmake llvm unzip ucf proxychains4 python3 git lazygit wget 
+sudo apt install ripgrep fzf neofetch clang cmake llvm unzip ucf proxychains4 python3 git lazygit wget 
 ```
 rust
 ```
@@ -35,3 +35,4 @@ export HTTPS_PROXY=https://192.168.0.1:10809
 git config --global http.proxy 'socks5://192.168.0.1:10808'
 git config --global --unset http.proxy
 ```
+
