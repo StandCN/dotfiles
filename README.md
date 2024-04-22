@@ -4,6 +4,10 @@
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/StandCN/dotfiles/main/.init-cfg/install.sh)"
 ```
+若需要代理
+```
+sh -c "$(curl -x socks5://192.168.0.1:10808 -fsSL https://raw.githubusercontent.com/StandCN/dotfiles/main/.init-cfg/install.sh)"
+```
 
 ubuntu ustc mirror
 ```
