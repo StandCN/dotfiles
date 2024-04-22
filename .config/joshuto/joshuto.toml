@@ -1,0 +1,16 @@
+
+
+
+# Define custom commands (using shell) with parameters like %text, %s etc.
+custom_commands = [
+  { name = "rgfzf", command = "/home/<USER>/.config/joshuto/rgfzf '%text' %s" },
+  { name = "rg", command = "/home/<USER>/.config/joshuto/rg '%text' %s" },
+  { name = "ucf", command = "/home/<USER>/.config/joshuto/ucf '%text' %s" },
+]
+
+[display]
+show_hidden = true
+
+[preview]
+max_preview_size = 2097152                           # 2MB
+preview_script = "~/.config/joshuto/preview_file.sh" # make sure it's marked as executable
