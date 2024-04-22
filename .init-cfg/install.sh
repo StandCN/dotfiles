@@ -9,6 +9,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 config config --local status.showUntrackedFiles no
 echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+echo "source ~/.config/joshuto/joshuto-bash.sh" >> $HOME/.bashrc
 
 cd $HOME
 # checkout on focus
