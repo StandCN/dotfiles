@@ -16,7 +16,7 @@ sudo sed -i 's@//.*archive.ubuntu.com@//mirrors.ustc.edu.cn@g' /etc/apt/sources.
 
 ## 软件
 ```
-sudo apt install ripgrep fzf neofetch clang cmake llvm unzip ucf proxychains4 python3 git lazygit wget 
+sudo apt install ripgrep fzf neofetch clang cmake llvm unzip ucf proxychains4 python3 git wget python-is-python3
 ```
 rust
 ```
@@ -24,6 +24,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 ```
 cargo install joshuto ucf
+cargo install gitui --locked
 ```
 pip
 ```
