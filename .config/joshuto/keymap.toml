@@ -133,7 +133,6 @@ keymap = [
   { keys = ["g", "e"], commands = ["cd /etc"] },
   { keys = ["g", "h"], commands = ["cd ~/"] },
   { keys = ["g", "s"], commands = ["cd ~/src"] },
-  { keys = ["g", "w"], commands = ["cd /mnt/c/Work/030301编码实现"] },
   { keys = ["?"], commands = ["help"] },
 ]
 
